@@ -5,6 +5,7 @@
 
 
 number = 16
-a = number%2
+a = ((number+1)%2)
 print(a)
+
 
