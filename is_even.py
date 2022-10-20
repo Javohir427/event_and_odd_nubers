@@ -6,5 +6,5 @@
 
 number = 16
 a = number%2
-print(a+1)
+print(a)
 
