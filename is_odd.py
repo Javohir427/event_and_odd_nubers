@@ -4,4 +4,3 @@
 number = 8
 a = number%2
 print(a)
-
