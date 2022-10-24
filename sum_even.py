@@ -7,13 +7,22 @@
 #Find the sum of the even digits in the variable "var_int".
 var_int = 4368
 sum_even = 0
-a = var_int%10
-b = var_int%100//10
-c = var_int//100%10
-d = var_int//1000
-a_1 = (a+1)%2
-b_1 = (b+1)%2
-c_1 = (c+1)%2
-d_1 = (d+1)%2
-f =  a_1+b_1+c_1+d_1
-print(sum_even+f)
+
+x1=var_int%10
+var_int//=10
+
+x2=var_int%10
+var_int//=10
+
+x3=var_int%10
+var_int//=10
+
+x4=var_int%10
+var_int//=10
+a = ((x1+1)%2)*x1
+b = ((x2+1)%2)*x2
+c = ((x3+1)%2)*x3
+d = ((x4+1)%2)*x4
+sum_even = a+b+c+d
+
+print (sum_even)
