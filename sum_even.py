@@ -26,3 +26,5 @@ d = ((x4+1)%2)*x4
 
 sum_even = a+b+c+d
 print (sum_even)   
+
+
