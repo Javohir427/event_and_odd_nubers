@@ -6,7 +6,7 @@
 
 #Find the sum of the even digits in the variable "var_int".
 var_int = 4368
-sum_even = 0
+
 
 x1=var_int%10
 var_int//=10
@@ -24,5 +24,5 @@ b = ((x2+1)%2)*x2
 c = ((x3+1)%2)*x3
 d = ((x4+1)%2)*x4
 
-
-print (a+b+c+d+sum_even) 
+sum_even = a+b+c+d
+print (sum_even) 
