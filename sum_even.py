@@ -25,4 +25,4 @@ c = ((x3+1)%2)*x3
 d = ((x4+1)%2)*x4
 
 
-print (a+b+c+d) 
+print (a+b+c+d+sum_even) 
