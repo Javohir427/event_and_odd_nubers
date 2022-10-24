@@ -23,6 +23,6 @@ a = ((x1+1)%2)*x1
 b = ((x2+1)%2)*x2
 c = ((x3+1)%2)*x3
 d = ((x4+1)%2)*x4
-sum_even = a+b+c+d
 
-print (sum_even) 
+
+print (a+b+c+d) 
