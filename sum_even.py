@@ -15,4 +15,5 @@ a_1 = (a+1)%2
 b_1 = (b+1)%2
 c_1 = (c+1)%2
 d_1 = (d+1)%2
-print(a_1+b_1+c_1+d_1)
+sum_even = a_1+b_1+c_1+d_1
+print(sum_even)
